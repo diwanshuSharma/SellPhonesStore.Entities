@@ -7,12 +7,6 @@ namespace SellPhonesStore.DataAccess
 {
     public class SellPhoneDB : DbContext
     {
-        
-        public SellPhoneDB()
-            : base("name=SellPhoneDB")
-        {
-        }
-
         public DbSet<Phone> phones { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<OrdereredPhone> OrdereredPhones { get; set; }

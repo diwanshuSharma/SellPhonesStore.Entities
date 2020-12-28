@@ -8,7 +8,7 @@ namespace SellPhonesStore.Entities
 {
     public class OrdereredPhone
     {
-        public long OrderedPhoneId { get; set; }
+        public long OrdereredPhoneID { get; set; }
         public Phone OrderedPhone { get; set; }
         public float Quantity { get; set; }
 

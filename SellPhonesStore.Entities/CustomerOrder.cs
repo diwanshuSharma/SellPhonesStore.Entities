@@ -8,11 +8,11 @@ namespace SellPhonesStore.Entities
 {
     public class CustomerOrder
     {
-        public long OrderId { get; set; }
-        public DateTime DateTime { get; set; }
-        public Customer customer { get; set; }
+        public long CustomerOrderID { get; set; }
+        public DateTime Orderdate { get; set; }
+        public Customer Customer { get; set; }
         public float OrderTotal { get; set; }
-        public List<OrdereredPhone> OrderedPhones { get; set; } = new List<OrdereredPhone>();
+        public List<OrdereredPhone> OrdereredPhones { get; set; } = new List<OrdereredPhone>();
 
     }
 }

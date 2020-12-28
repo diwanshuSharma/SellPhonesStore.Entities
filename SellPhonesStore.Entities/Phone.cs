@@ -8,11 +8,11 @@ namespace SellPhonesStore.Entities
 {
     public class Phone
     {
-        public long PhoneId { get; set; }
-        public string PhoneDescription { get; set; }
-        public float Price{ get; set; }
-        public DateTime ManufacturingDate { get; set; }
+        public long PhoneID { get; set; }
+        public string PhoneDescrption { get; set; }
+        public float Price { get; set; }
+        public DateTime ManufactureDate { get; set; }
         public string BrandName { get; set; }
-        public int Instock { get; set; }
+        public int InStock { get; set; }
     }
 }
